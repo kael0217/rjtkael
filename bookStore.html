@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Kaige's bookstore!</title>
+</head>
+<body>
+	<a href="http://localhost:8080/day15-java-practice2/bookStore.html">main</a><br>
+    Welcome to bookstore:
+    <form action="./shop" method="get">
+    	<input type="submit" value="ShowCart">
+    </form>
+	<form action="./shop" method="post">
+		<br>
+		bookA:<input type='checkbox' name='booklist' value='BookA'>
+		bookB:<input type='checkbox' name='booklist' value='BookB'>
+		bookC:<input type='checkbox' name='booklist' value='BookC'>
+		bookD:<input type='checkbox' name='booklist' value='BookD'>
+		bookE:<input type='checkbox' name='booklist' value='BookE'>
+		<input type="submit" name="click" value="AddCart">
+	</form>
+	<form action="./shop" method="post">
+    	<input type="submit" name="click" value="logout">
+    </form>  
+</body>
+</html>
