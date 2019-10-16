@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="./bill" method="post">
+		Consumer Number: <input type='number' name='consumer' min='100000' max='999999' required /> <br>
+		Last Month Meter Reading: <input name='lastmonth' pattern='^\d*(\.\d{0,2})?$' /><br>
+		Current Month Meter Reading: <input name='thismonth' pattern='^\d*(\.\d{0,2})?$' /><br>
+		<input type="submit" value="submit">
+	</form>
+</body>
+</html>

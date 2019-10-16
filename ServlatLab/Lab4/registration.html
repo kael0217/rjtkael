@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Enter your info</title>
+</head>
+<body>
+	<form action='./register' method='post'>
+		Firstname:<input type='text' name='firstname' required/><br/>
+		Lastname:<input type='text' name='lastname' required/><br/>
+		Password:<input type='text' name='password' required/><br/>
+		Gender: <input type='radio' name='gender' value='M' required/>Male  
+				<input type='radio' name='gender' value='F'>Female<br/>
+		Select Skill:<input type='checkbox' name='skills' value='Java'>Java
+				<input type='checkbox' name='skills' value='.Net'>.Net
+				<input type='checkbox' name='skills' value='Testing'>Testing 
+				<input type='checkbox' name='skills' value='MainFrame'>Mainframe<br/>
+		Select City: <select name='city'>
+			<option value="Irvine">Evanston</option>
+			<option value="Irvine">Chicago</option>
+			<option value="StCharles">StCharles</option>
+		</select><br/>
+		
+		<button type='submit'>Register</button>
+		<button type='reset'>clear</button>
+	</form>
+</body>
+</html>

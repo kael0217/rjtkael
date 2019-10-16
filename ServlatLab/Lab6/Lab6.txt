@@ -1,0 +1,4 @@
+The sysout prints the time period between the time a request arrives the filter and the time the request leaves the filter.
+
+The filter is not doing any filting job
+it is just evaluating the efficiency of the filter. 
